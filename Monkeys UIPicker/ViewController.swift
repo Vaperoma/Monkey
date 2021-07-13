@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tableMonkeys: UITableView!
+    
     @IBOutlet weak var selectedMonkeyTextField: UITextField!
     var monkeysList: [String] = []
     let picker = UIPickerView()
@@ -67,5 +69,22 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         default:
             return ""
         }
+    }
+}
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return monkeysList.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellName = monkeysList[indexPath.row]
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "monkeys") else {
+            return UITableViewCell()
+        }
+        cell.textLabel?.text = cellName
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+
     }
 }
