@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31CD928269E08FC00EEB8AA /* MonkeyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CD927269E08FC00EEB8AA /* MonkeyTableViewCell.swift */; };
 		FD93E22D2682423400FC59BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93E22C2682423400FC59BE /* AppDelegate.swift */; };
 		FD93E22F2682423400FC59BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93E22E2682423400FC59BE /* SceneDelegate.swift */; };
 		FD93E2312682423400FC59BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93E2302682423400FC59BE /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31CD927269E08FC00EEB8AA /* MonkeyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyTableViewCell.swift; sourceTree = "<group>"; };
 		FD93E2292682423400FC59BE /* Monkeys UIPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monkeys UIPicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD93E22C2682423400FC59BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD93E22E2682423400FC59BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				FD93E22E2682423400FC59BE /* SceneDelegate.swift */,
 				FD93E2302682423400FC59BE /* ViewController.swift */,
 				FD93E2322682423400FC59BE /* Main.storyboard */,
+				A31CD927269E08FC00EEB8AA /* MonkeyTableViewCell.swift */,
 				FD93E2352682423600FC59BE /* Assets.xcassets */,
 				FD93E2372682423600FC59BE /* LaunchScreen.storyboard */,
 				FD93E23A2682423600FC59BE /* Info.plist */,
@@ -151,6 +154,7 @@
 				FD93E2312682423400FC59BE /* ViewController.swift in Sources */,
 				FD93E22D2682423400FC59BE /* AppDelegate.swift in Sources */,
 				FD93E2452682453F00FC59BE /* Monkeys.swift in Sources */,
+				A31CD928269E08FC00EEB8AA /* MonkeyTableViewCell.swift in Sources */,
 				FD93E22F2682423400FC59BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
